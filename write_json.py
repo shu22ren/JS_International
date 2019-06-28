@@ -25,7 +25,7 @@ def write_json(language,container,role,path):
     elif role == 'bds':
         roles = ['CN BDR Supervisor','CN BDR Manager']
     elif role == 'bdr':
-        roles = ['CN BDR']
+        roles = ['IN BDR']
     elif role == 'Inspection':
         roles = ['Inspection']
     elif role == 'VNSPR':
